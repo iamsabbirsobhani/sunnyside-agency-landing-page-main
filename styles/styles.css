@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.front-page {
+  background: #14a9ff;
+  height: 100vh;
+}
+.front-page h3 {
+  text-align: center;
+}
+.front-page .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+/*# sourceMappingURL=styles.css.map */
