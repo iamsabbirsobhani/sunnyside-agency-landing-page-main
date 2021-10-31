@@ -1,12 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
 }
 
 .front-page {
-  background: #14a9ff;
-  height: 100vh;
+  background-image: url("/images/desktop/image-header.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
 }
 .front-page h3 {
   text-align: center;
@@ -15,5 +23,45 @@
   display: flex;
   justify-content: space-between;
   padding: 50px;
+}
+
+.nav-btn .contact-btn, .nav-btn button:hover, .nav-btn button {
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  transition: all 0.24s;
+}
+.nav-btn button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.nav-btn button:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.377);
+}
+
+.second-part {
+  margin-top: 40px;
+}
+.second-part h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.second-part .down-arrow {
+  margin-top: 140px;
+}
+.second-part .down-arrow img {
+  display: block;
+  margin: auto;
 }
 /*# sourceMappingURL=styles.css.map */
